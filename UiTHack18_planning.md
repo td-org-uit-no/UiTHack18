@@ -14,11 +14,13 @@ We define the following categories of challenges, with a minimum of three(3) in 
 ### Misc.
 - Mandatory IRC flag (that everyone should be able to get)
 - Some esoteric programming language where you simply need to determine that it is an esolang and run it (possibly online)
-- Something other (but what???)
+- Wireshark og PCAP
 
 ### Pwn
 - Simple command injection of some sort (show how dangerous it is to use user input) (maybe a shell script or Rust using a system command or something else) - probably give source or script or something along those lines
-- Final one; ROP (or shellcode) simulator (search functionality, input functionality and execute) - no ASLR
+- Enkel overflow av felter i en struct i C. Trenger ikke tenke på det å overflowe returadressen. Sende med source også og ikke bare binary.
+- Buffer overflow emulator. Allow kids to read the stack (pretty-print stack), write into a buffer and execute shellcode.
+- Kanskje en oppgave som er ordentlig rop eller buffer overflow for de ordentlig hard-core gutta! (?)
 
 ### Reverse Engineering
 - Enkel strings (klassiker) - samme som i fjor, men kanskje bytte språk?
