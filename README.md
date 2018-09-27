@@ -11,10 +11,11 @@
 - [Reverse Engineering](./Reverse%20Engineering)
 - [Web](./Web)
 
-### TODO
+### Status/TODO
 - Create Crypto challs
 - Create Noob challs
 - Create Pwn challs
+        - First Pwn implemented (online calculator)
 - Create RE challs
 - Create Web challs
 - Write chall text and define score for Misc
