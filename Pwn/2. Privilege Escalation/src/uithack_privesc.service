@@ -1,0 +1,12 @@
+[Unit]
+Description=UiTHack Privilege Escalation server
+After=network.target
+
+[Service]
+Type=simple
+User=privesc
+WorkingDirectory=/home/privesc
+ExecStart=/usr/bin/socat TCP-LISTEN:4242,reuseaddr,fork EXEC:"/home/privesc/privesc",stderr
+
+[Install]
+WantedBy=multi-user.target
