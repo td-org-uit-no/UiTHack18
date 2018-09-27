@@ -17,6 +17,7 @@
 - Create Pwn challs
         - First Pwn implemented (online calculator)
         - Second Pwn implemented (privilege escalation)
+        - Third Pwn implemented (overflow playground)
 - Create RE challs
 - Create Web challs
 - Write chall text and define score for Misc
