@@ -16,6 +16,7 @@
 - Create Noob challs
 - Create Pwn challs
         - First Pwn implemented (online calculator)
+        - Second Pwn implemented (privilege escalation)
 - Create RE challs
 - Create Web challs
 - Write chall text and define score for Misc
