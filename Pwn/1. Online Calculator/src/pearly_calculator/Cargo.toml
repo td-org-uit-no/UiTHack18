@@ -1,0 +1,6 @@
+[package]
+name = "perly_calculator"
+version = "0.1.0"
+authors = ["Nikolai Åsen Magnussen <nikolai@magnussen.tf>"]
+
+[dependencies]
