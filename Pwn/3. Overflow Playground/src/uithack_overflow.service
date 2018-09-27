@@ -1,0 +1,14 @@
+[Unit]
+Description=UiTHack Overflow server
+After=network.target
+
+[Service]
+Type=simple
+User=overflow
+Restart=always
+RestartSec=1
+WorkingDirectory=/home/overflow
+ExecStart=/usr/bin/socat TCP-LISTEN:13337,reuseaddr,fork EXEC:"/home/overflow/overflow",stderr
+
+[Install]
+WantedBy=multi-user.target
