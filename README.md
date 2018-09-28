@@ -19,5 +19,6 @@
         - Second Pwn implemented (privilege escalation)
         - Third Pwn implemented (overflow playground)
 - Create RE challs
+        - First RE implemented (guess the password)
 - Create Web challs
 - Write chall text and define score for Misc
