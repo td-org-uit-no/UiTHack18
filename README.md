@@ -20,5 +20,6 @@
         - Third Pwn implemented (overflow playground)
 - Create RE challs
         - First RE implemented (guess the password)
+        - Second RE implemented (in the library)
 - Create Web challs
 - Write chall text and define score for Misc
