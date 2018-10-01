@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=privesc
 WorkingDirectory=/home/privesc
-ExecStart=/usr/bin/socat TCP-LISTEN:4242,reuseaddr,fork EXEC:"/home/privesc/privesc",stderr
+ExecStart=/usr/bin/socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"/home/privesc/privesc",stderr
 
 [Install]
 WantedBy=multi-user.target

@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=calculator
 WorkingDirectory=/home/calculator
-ExecStart=/usr/bin/socat TCP-LISTEN-1337,reuseaddr,fork EXEC:"/home/calculator/calculator",stderr
+ExecStart=/usr/bin/socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"/home/calculator/calculator",stderr
 
 [Install]
 WantedBy=multi-user.target

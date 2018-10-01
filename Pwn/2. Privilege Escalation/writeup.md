@@ -8,7 +8,7 @@
 > The application is exposed over raw TCP, so use netcat to connect:
 > 
 > ```
-> nc <ip> 4242  
+> nc 142.93.107.146 1337
 > ```
 > 
 > File: [privesc](./privesc)
