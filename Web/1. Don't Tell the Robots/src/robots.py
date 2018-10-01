@@ -14,4 +14,4 @@ def robots():
 
 @app.route("/.super_secret_file_that_will_not_be_indexed")
 def flag():
-    return "Congratulations - the flag is: UiTHack{robots_should_not_index_this_but_humans_are_not_disallowed}"
+    return "Congratulations - the flag is: UiTHack18{robots_should_not_index_this_but_humans_are_not_disallowed}"

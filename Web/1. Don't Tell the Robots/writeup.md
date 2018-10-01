@@ -21,5 +21,5 @@ Disallow: /.super_secret_file_that_will_not_be_indexed
 This hints to the flag being stored at that endpoint, and requesting that endpoint yields the flag:
 
 ```
-UiTHack{robots_should_not_index_this_but_humans_are_not_disallowed}
+UiTHack18{robots_should_not_index_this_but_humans_are_not_disallowed}
 ```
