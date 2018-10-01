@@ -2,6 +2,7 @@
 
 ## Status/TODO
 - [ ] Create Crypto challs
+    * [x] First Crypto implemented (and so it begins)
 - [ ] Create Noob challs
 - [x] Create Pwn challs
     * [x] First Pwn implemented (online calculator)
@@ -10,6 +11,7 @@
 - [ ] Create RE challs
     * [x] First RE implemented (guess the password)
     * [x] Second RE implemented (in the library)
+    * [ ] Third RE implemented - Fredrik should make this (.NET)
 - [x] Create Web challs
     * [x] First Web implmented (don't thell the robots)
     * [x] Second Web implemented (source of evil)
