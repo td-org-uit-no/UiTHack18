@@ -20,6 +20,10 @@
 - [x] Write chall text and define score for Misc
 - [x] Publish Pwn challs on servers and website
 - [x] Publich Web challs on servers and website
+- [ ] Public RE challs on website
+    * [x] First RE published (guess the password)
+    * [x] Second RE published (in the library)
+    * [ ] Third RE published - Fredrik should make this (.NET)
 
 ### Categories
 - [Crypto](./Crypto)
