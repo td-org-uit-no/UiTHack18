@@ -1,7 +1,10 @@
-use std::io;
+use std::io::{self, Write};
 use std::process::Command;
 
 fn main() {
+    print!("Input mathematical expression: ");
+    let _ = io::stdout().flush();
+    
     let mut buf = String::new();
     match io::stdin().read_line(&mut buf) {
         Ok(_) => {
