@@ -65,4 +65,5 @@ We define the following categories of challenges, with a minimum of three(3) in 
 - Create Web challs
     * First Web implmented (don't thell the robots)
     * Second Web implemented (source of evil)
+    * Third Web implemented (can't handle my database)
 - Write chall text and define score for Misc
