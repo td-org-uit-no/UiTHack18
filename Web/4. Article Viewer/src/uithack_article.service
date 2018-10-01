@@ -1,0 +1,13 @@
+[Unit]
+Description=UiTHack Article Viewing service
+After=network.target
+
+[Service]
+Type=simple
+User=article
+WorkingDirectory=/srv/article
+Environment=ROCKET_ENV=prod
+ExecStart=/srv/article/article_viewer
+
+[Install]
+WantedBy=multi-user.target
