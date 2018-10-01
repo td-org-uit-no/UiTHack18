@@ -1,5 +1,30 @@
 # UiTHack 2018
 
+## Status/TODO
+- [ ] Create Crypto challs
+- [ ] Create Noob challs
+- [x] Create Pwn challs
+    * [x] First Pwn implemented (online calculator)
+    * [x] Second Pwn implemented (privilege escalation)
+    * [x] Third Pwn implemented (overflow playground)
+- [ ] Create RE challs
+    * [x] First RE implemented (guess the password)
+    * [x] Second RE implemented (in the library)
+- [x] Create Web challs
+    * [x] First Web implmented (don't thell the robots)
+    * [x] Second Web implemented (source of evil)
+    * [x] Third Web implemented (can't handle my database)
+    * [x] Fourth Web implemented (article viewer)
+- [] Write chall text and define score for Misc
+
+### Categories
+- [Crypto](./Crypto)
+- [Misc](./Misc)
+- [Noob](./Noob)
+- [Pwn](./Pwn)
+- [Reverse Engineering](./Reverse%20Engineering)
+- [Web](./Web)
+
 ### Planning:
 
 #### UiTHack 2018 - thoughts and challenges
@@ -43,28 +68,3 @@ We define the following categories of challenges, with a minimum of three(3) in 
 - robots.txt
 - Noe gjemt i sourcen
 - Template injection (kanskje noe annet enn flask)
-
-### Categories
-- [Crypto](./Crypto)
-- [Misc](./Misc)
-- [Noob](./Noob)
-- [Pwn](./Pwn)
-- [Reverse Engineering](./Reverse%20Engineering)
-- [Web](./Web)
-
-### Status/TODO
-- Create Crypto challs
-- Create Noob challs
-- Create Pwn challs
-    * First Pwn implemented (online calculator)
-    * Second Pwn implemented (privilege escalation)
-    * Third Pwn implemented (overflow playground)
-- Create RE challs
-    * First RE implemented (guess the password)
-    * Second RE implemented (in the library)
-- Create Web challs
-    * First Web implmented (don't thell the robots)
-    * Second Web implemented (source of evil)
-    * Third Web implemented (can't handle my database)
-    * Fourth Web implemented (article viewer)
-- Write chall text and define score for Misc
