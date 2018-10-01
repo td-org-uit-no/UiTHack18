@@ -1,0 +1,13 @@
+[Unit]
+Description=UiTHack Robots server
+After=network.target
+
+[Service]
+Type=simple
+User=nginx
+WorkingDirectory=/srv/robots
+Environment=FLASK_APP=robots.py
+ExecStart=/bin/flask run --host=0.0.0.0 --port 1337
+
+[Install]
+WantedBy=multi-user.target

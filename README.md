@@ -22,4 +22,5 @@
         - First RE implemented (guess the password)
         - Second RE implemented (in the library)
 - Create Web challs
+        - First Web implmented (don't thell the robots)
 - Write chall text and define score for Misc
