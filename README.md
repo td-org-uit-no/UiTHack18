@@ -15,13 +15,13 @@
 - Create Crypto challs
 - Create Noob challs
 - Create Pwn challs
-        * First Pwn implemented (online calculator)
-        * Second Pwn implemented (privilege escalation)
-        * Third Pwn implemented (overflow playground)
+    * First Pwn implemented (online calculator)
+    * Second Pwn implemented (privilege escalation)
+    * Third Pwn implemented (overflow playground)
 - Create RE challs
-        * First RE implemented (guess the password)
-        * Second RE implemented (in the library)
+    * First RE implemented (guess the password)
+    * Second RE implemented (in the library)
 - Create Web challs
-        * First Web implmented (don't thell the robots)
-        * Second Web implemented (source of evil)
+    * First Web implmented (don't thell the robots)
+    * Second Web implemented (source of evil)
 - Write chall text and define score for Misc
