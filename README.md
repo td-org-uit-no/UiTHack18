@@ -3,6 +3,8 @@
 ## Status/TODO
 - [ ] Create Crypto challs
     * [x] First Crypto implemented (and so it begins)
+    * [x] Second Crypto implemented (old school)
+    * [x] Fifth Crypto implemented, but it might need even more hints toward it being DES
 - [ ] Create Noob challs
 - [x] Create Pwn challs
     * [x] First Pwn implemented (online calculator)
@@ -24,6 +26,10 @@
     * [x] First RE published (guess the password)
     * [x] Second RE published (in the library)
     * [ ] Third RE published - Fredrik should make this (.NET)
+- [ ] Publish Crypto challs
+    * [x] First Crypto published (and so it begins)
+    * [x] Second Crypto published (old school, yeah)
+    * [ ] Fifth Crypto published - might need even more hints toward it being DES
 
 ### Categories
 - [Crypto](./Crypto)
