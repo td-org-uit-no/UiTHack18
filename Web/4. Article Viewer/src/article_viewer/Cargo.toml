@@ -1,0 +1,9 @@
+[package]
+name = "article_viewer"
+version = "0.1.0"
+authors = ["Nikolai Åsen Magnussen <nikolai@magnussen.tf>"]
+
+[dependencies]
+rocket = "0.3.17"
+rocket_codegen = "0.3.17"
+rocket_contrib = "0.3.17"

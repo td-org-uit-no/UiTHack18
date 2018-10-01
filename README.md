@@ -66,4 +66,5 @@ We define the following categories of challenges, with a minimum of three(3) in 
     * First Web implmented (don't thell the robots)
     * Second Web implemented (source of evil)
     * Third Web implemented (can't handle my database)
+    * Fourth Web implemented (article viewer)
 - Write chall text and define score for Misc
