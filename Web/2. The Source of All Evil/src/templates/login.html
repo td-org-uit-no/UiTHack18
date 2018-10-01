@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Login credentials: 'admin' - 'correct battery horse staple' TODO: REMOVE AFTER TESTING! -->
+    <title>UiTHack 2018</title>
+  </head>
+  <body>
+    <h1>UiTHack 2018 - secret flag server</h1>
+    <div>
+      {% if not session.logged_in %}
+      <p>You need to be logged in to view the <a href="{{ url_for('flag') }}">flag</a></p>
+      {% else %}
+      <p>You are logged in, get <a href="{{ url_for('flag') }}">flag</a></p>
+      {% endif %}
+    </div>
+    {% if not session.logged_in %}
+    <h2>Login</h2>
+      {% if error %}
+      <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    <form action="{{ url_for('login') }}" method="post">
+      <dl>
+        <dt>Username:
+        <dd><input type="text" name="username">
+        <dt>Password:
+        <dd><input type="password" name="password">
+        <dd><input type="submit" value="login">
+      </dl>
+    </form>
+    {% endif %}
+  </body>
+</html>
