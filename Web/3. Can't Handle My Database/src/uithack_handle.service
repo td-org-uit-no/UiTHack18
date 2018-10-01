@@ -1,0 +1,13 @@
+[Unit]
+Description=UiTHack Database Handling server
+After=network.target
+
+[Service]
+Type=simple
+User=nginx
+WorkingDirectory=/srv/handle
+Environment=FLASK_APP=handle.py
+ExecStart=/bin/flask run --host=0.0.0.0 --port 1337
+
+[Install]
+WantedBy=multi-user.target
