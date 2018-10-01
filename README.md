@@ -16,6 +16,7 @@
     * [x] Third Web implemented (can't handle my database)
     * [x] Fourth Web implemented (article viewer)
 - [ ] Write chall text and define score for Misc
+- [x] Publish Pwn challs on servers and website
 
 ### Categories
 - [Crypto](./Crypto)
