@@ -15,7 +15,7 @@
     * [x] Second Web implemented (source of evil)
     * [x] Third Web implemented (can't handle my database)
     * [x] Fourth Web implemented (article viewer)
-- [ ] Write chall text and define score for Misc
+- [x] Write chall text and define score for Misc
 - [x] Publish Pwn challs on servers and website
 - [x] Publich Web challs on servers and website
 
