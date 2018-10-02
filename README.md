@@ -8,6 +8,12 @@
     * [x] Fourth Crypto implemented (transposition)
     * [x] Fifth Crypto implemented, but it might need even more hints toward it being DES
 - [ ] Create Noob challs
+    * [x] First Noob implemented
+    * [x] Second Noob implemented
+    * [x] Third Noob implemented
+    * [x] Fourth Noob implemented
+    * [x] Fifth Noob implemented
+    * [ ] Sixth Noob implemented
 - [x] Create Pwn challs
     * [x] First Pwn implemented (online calculator)
     * [x] Second Pwn implemented (privilege escalation)
@@ -34,6 +40,13 @@
     * [x] Third Crypto published (tabula recta)
     * [x] Fourth Crypto published (transposition)
     * [ ] Fifth Crypto published - might need even more hints toward it being DES
+- [ ] Publish Noob challs
+    * [x] First Noob published
+    * [x] Second Noob published
+    * [x] Third Noob published
+    * [x] Fourth Noob published
+    * [x] Fifth Noob published
+    * [ ] Sixth Noob published
 
 ### Categories
 - [Crypto](./Crypto)
