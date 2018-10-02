@@ -17,6 +17,7 @@ The challenge name and text points toward a columnar transposition cipher, but w
 Not to worry, if you write it down, you immediately should discover the key length is 7 because "8" comes after "i".
 If you continue to write the ciphertext down you get to the "T{" which is the "T" in "UiT" and "{" which is the "{" after "UiTHack18".
 Continuing to fill out the ciphertext, you can read the text in rows if you wrote it the cipher in columns.
+This might reveal the key to the observant cryptanalyst as being "HACKERS"
 
 Yielding the flag:
 
