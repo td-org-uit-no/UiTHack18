@@ -11,3 +11,5 @@ Best of luck!
 PS: You don't need to SSH into the new users, because they are located on the same server, you can simply `su <username>` and enter the password.
 
 Hint: [ls](https://linux.die.net/man/1/ls) might have some interesting flags
+
+[Writeup](./writeup.md)
