@@ -5,6 +5,7 @@
     * [x] First Crypto implemented (and so it begins)
     * [x] Second Crypto implemented (old school)
     * [x] Third Crypto implemented (tabula recta)
+    * [x] Fourth Crypto implemented (transposition)
     * [x] Fifth Crypto implemented, but it might need even more hints toward it being DES
 - [ ] Create Noob challs
 - [x] Create Pwn challs
@@ -31,6 +32,7 @@
     * [x] First Crypto published (and so it begins)
     * [x] Second Crypto published (old school, yeah)
     * [x] Third Crypto published (tabula recta)
+    * [x] Fourth Crypto published (transposition)
     * [ ] Fifth Crypto published - might need even more hints toward it being DES
 
 ### Categories
