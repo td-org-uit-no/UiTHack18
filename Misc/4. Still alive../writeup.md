@@ -11,5 +11,5 @@
 Talk to GLaDOS on slack in a direct message. Using the keywords "flag" or "flagg" she will give you the flag
 
 ```
-UiTHack18{the_cake_is_a_lie)
+UiTHack18{the_cake_is_a_lie}
 ```
