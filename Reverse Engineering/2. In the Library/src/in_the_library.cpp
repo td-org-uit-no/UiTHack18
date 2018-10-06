@@ -3,10 +3,10 @@
 #include <string.h>
 using namespace std;
 
-string PASS = "super_secret_encrypted_password";
-string FLAG = "UiTHack18{library_functions_can_be_inspected_easily}";
-const char *flag_stuff = FLAG.c_str();
-const char *pass_stuff = PASS.c_str();
+// string PASS = "super_secret_encrypted_password";
+// string FLAG = "UiTHack18{library_functions_can_be_inspected_easily}";
+// const char *flag_stuff = FLAG.c_str();
+// const char *pass_stuff = PASS.c_str();
 uint8_t xor_key = 0xc8;
 #define _PASS_BUFFER_SIZE 52
 const uint8_t pass_encrypted[52] = {
